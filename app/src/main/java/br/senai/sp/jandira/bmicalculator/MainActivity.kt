@@ -2,9 +2,11 @@ package br.senai.sp.jandira.bmicalculator
 
 import android.graphics.Bitmap
 import android.graphics.drawable.BitmapDrawable
+import android.icu.text.ListFormatter.Width
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -96,9 +98,43 @@ fun CalculatorScreen(){
                 Card(
                     modifier = Modifier
                         .fillMaxSize(),
-                    backgroundColor = Color(red = 79, green = 54, blue = 232)
+                    backgroundColor = Color(red = 79, green = 54, blue = 232),
+                    shape = RoundedCornerShape(15.dp)
+
 
                     ) {
+                    Column(
+                        modifier = Modifier.fillMaxSize(),
+                        verticalArrangement = Arrangement.SpaceEvenly,
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                        Text(
+                            text = stringResource(id = R.string.your_score),
+                            color = Color.White,
+                            fontSize = 32.sp
+                        )
+                        Text(
+                            text = "0.0",
+                            color = Color.White,
+                            fontSize = 48.sp
+                        )
+                        Text(
+                            text = stringResource(id = R.string.ideal_state),
+                            color = Color.White,
+                            fontSize = 24.sp,
+                            textAlign = TextAlign.Center
+                        )
+                        Row() {
+                            Button(onClick = { /*TODO*/ }) {
+                                Text(text = stringResource(id = R.string.reset))
+                            }
+                            Spacer(modifier = Modifier.width(24.dp))
+                            Button(onClick = { /*TODO*/ }) {
+                                Text(text = stringResource(id = R.string.share))
+                            }
+                            
+                        }
+                    }
 
                 }
 
