@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+    <string name="title">Calculadora IMC</string>
+    <string name="weight_label">Seu peso em KG</string>
+    <string name="height_label">Sua altura em cm</string>
+    <string name="button_calculate">Calcular</string>
+    <string name="your_score">Sua Pontuação</string>
+    <string name="reset">Resetar</string>
+    <string name="share">Compartilhar</string>
+    <string name="ideal_state">Parabéns! \n O seu peso é ideal</string>
+    <string name="underweight">Abaxo do peso</string>
+    <string name="normal_weight">Peso normal</string>
+    <string name="over_weight">Obesidade Classe I - sobre-peso</string>
+    <string name="obesity">Obesidade Classe II</string>
+    <string name="morbid_obesity">Obesidade morbida Classe III </string>
+</resources>

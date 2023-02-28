@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор ИМТ</string>
+    <string name="title">Калькулятор ИМТ</string>
+    <string name="weight_label">Ваш вес в KG</string>
+    <string name="height_label">Ваш рост в см</string>
+    <string name="button_calculate">Рассчитать</string>
+    <string name="your_score">Твой счет</string>
+    <string name="reset">Перезагрузить</string>
+    <string name="share">Делиться</string>
+    <string name="ideal_state">Congratulations! \n Your weight is ideal</string>
+    <string name="underweight">недостаточный вес</string>
+    <string name="normal_weight">Нормальный вес</string>
+    <string name="over_weight">Ожирение I степени - избыточный вес</string>
+    <string name="obesity">Ожирение II степени</string>
+    <string name="morbid_obesity">Болезненное ожирение III степени</string>
+</resources>
